@@ -81,3 +81,27 @@ nav ul li a:hover {
     padding-left: 20px;
     list-style-position: inside;
 }
+
+/* New styles for section boxes */
+section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
