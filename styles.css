@@ -94,3 +94,7 @@ section ul {
     width: 20px;
     height: 20px;
 }
+
+.contact-page ul {
+    list-style-type: none;
+}
