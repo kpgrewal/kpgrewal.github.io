@@ -14,6 +14,9 @@ body {
 }
 
 header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
     background-color: #0077B5;
     color: #fff;
     padding: 10px 20px;
@@ -25,7 +28,7 @@ header img {
     height: 100px; /* Adjusts the height as needed */
     border-radius: 50%; /* Creates a circular shape */
     object-fit: cover; /* Ensures the image covers the entire space */
-    margin-right: 200px; /* Optional: Adjust margin for spacing */
+    margin-left: auto; /* Move the image to the right */
 }
 
 header h1 {
@@ -91,4 +94,3 @@ section ul {
     width: 20px;
     height: 20px;
 }
-
