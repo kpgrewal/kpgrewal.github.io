@@ -27,20 +27,24 @@ header img {
     width: 100px; /* Adjusts the width as needed */
     height: 100px; /* Adjusts the height as needed */
     border-radius: 50%; /* Creates a circular shape */
-    margin-right: 80%; /* Move the image to the right */
+    margin-left: auto; /* Move the image to the right */
 }
 
 header h1 {
     font-size: 2em;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px; /* Add spacing between name and navigation */
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
 }
 
@@ -55,7 +59,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-section {
+.section {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
@@ -63,34 +67,17 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+.section h2 {
     margin-bottom: 10px;
     color: #0077B5;
 }
 
-section p {
+.section p {
     margin-bottom: 15px;
 }
 
-section ul {
+.section ul {
     margin-bottom: 15px;
     padding-left: 20px;
     list-style-position: inside;
 }
-
-.linkedin-button {
-    display: inline-block;
-    background-color: #0077B5;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.linkedin-button img {
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-}
-
