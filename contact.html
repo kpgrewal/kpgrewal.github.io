@@ -71,7 +71,11 @@
         }
         .buttons {
             margin-top: 20px;
-            text-align: right; /* Align content to the right */
+        }
+        .buttons .button-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .buttons .submit-button {
             background-color: #0077B5; /* Match LinkedIn button color */
@@ -80,13 +84,9 @@
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
-            display: inline-block;
             font-size: 16px;
             border-radius: 5px;
             cursor: pointer;
-        }
-        .buttons .submit-button-container {
-            text-align: right; /* Align container to the right */
         }
     </style>
 </head>
@@ -107,7 +107,7 @@
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, feel free to send me an email or connect with me on LinkedIn.</p>
         
-        <form action="https://formspree.io/f/mvoeewwy" method="POST">
+        <form action="https://formspree.io/kpgrewal10@gmail.com" method="POST">
             <div class="form-group">
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="First Name" required>
@@ -129,15 +129,15 @@
                 <textarea id="message" name="Message" required></textarea>
             </div>
             <div class="buttons">
-                <a class="linkedin-button" href="https://www.linkedin.com/in/kamalpreetsinghgrewal/" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo"> LinkedIn
-                </a>
-                <a class="email-button" href="mailto:kpgrewal10@gmail.com">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Internet_mail_icon.svg/128px-Internet_mail_icon.svg.png" alt="Mail Icon"> Email
-                </a>
-                <div class="submit-button-container">
-                    <input type="submit" class="submit-button" value="Submit">
+                <div class="button-group">
+                    <a class="linkedin-button" href="https://www.linkedin.com/in/kamalpreetsinghgrewal/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo"> LinkedIn
+                    </a>
+                    <a class="email-button" href="mailto:kpgrewal10@gmail.com">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Internet_mail_icon.svg/128px-Internet_mail_icon.svg.png" alt="Mail Icon"> Email
+                    </a>
                 </div>
+                <input type="submit" class="submit-button" value="Submit">
             </div>
         </form>
     </section>
