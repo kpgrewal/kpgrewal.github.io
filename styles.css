@@ -81,3 +81,97 @@ nav ul li a:hover {
     padding-left: 20px;
     list-style-position: inside;
 }
+/* LinkedIn button */
+.linkedin-button {
+    display: inline-block;
+    background-color: #0077B5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.linkedin-button img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Email button */
+.email-button {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.email-button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.buttons a.linkedin-button {
+    background-color: #0077B5;
+    color: #fff;
+}
+.buttons a.email-button {
+    background-color: #ff9900;
+    color: #fff;
+}
+.buttons input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
