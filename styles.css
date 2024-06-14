@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 /* New styles for section boxes */
-section {
+section.section {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin: 20px auto;
@@ -94,14 +94,14 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+section.section h2 {
     margin-top: 0;
 }
 
-section ul {
+section.section ul {
     padding-left: 20px;
 }
 
-section ul li {
+section.section ul li {
     margin-bottom: 10px;
 }
