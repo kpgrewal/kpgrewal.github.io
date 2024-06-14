@@ -28,7 +28,7 @@ header img {
     height: 100px; /* Adjusts the height as needed */
     border-radius: 50%; /* Creates a circular shape */
     object-fit: cover; /* Ensures the image covers the entire space */
-    margin-right: 60%; /* Move the image to the right */
+    margin-right: 75%; /* Move the image to the right */
 }
 
 header h1 {
