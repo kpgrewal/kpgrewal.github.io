@@ -1,55 +1,83 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, nav {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f0f0f0;
+    padding: 20px;
 }
 
 header {
-    background-color: #333;
+    background-color: #0077B5;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    margin: 0;
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2em;
+    padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #00588A;
+    border-radius: 5px;
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
     background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #0077B5;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul {
+    margin-bottom: 15px;
+}
+
+.linkedin-button {
+    display: inline-block;
+    background-color: #0077B5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.linkedin-button img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
