@@ -21,8 +21,8 @@ header {
 }
 
 header img {
-    width: 40px; /* Adjusts the width as needed */
-    height: 40px; /* Adjusts the height as needed */
+    width: 100px; /* Adjusts the width as needed */
+    height: 100px; /* Adjusts the height as needed */
     border-radius: 50%; /* Creates a circular shape */
     object-fit: cover; /* Ensures the image covers the entire space */
     margin-right: 10px; /* Optional: Adjust margin for spacing */
