@@ -65,6 +65,7 @@ section p {
 section ul {
     margin-bottom: 15px;
     padding-left: 20px;
+    list-style-position: inside;
 }
 
 .linkedin-button {
