@@ -20,6 +20,14 @@ header {
     margin-bottom: 20px;
 }
 
+header img {
+    width: 40px; /* Adjusts the width as needed */
+    height: 40px; /* Adjusts the height as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    margin-right: 10px; /* Optional: Adjust margin for spacing */
+}
+
 header h1 {
     font-size: 2em;
     margin-bottom: 0;
@@ -84,10 +92,3 @@ section ul {
     height: 20px;
 }
 
-header img {
-    width: 40px; /* Adjusts the width as needed */
-    height: 40px; /* Adjusts the height as needed */
-    border-radius: 50%; /* Creates a circular shape */
-    object-fit: cover; /* Ensures the image covers the entire space */
-    margin-right: 10px; /* Optional: Adjust margin for spacing */
-}
