@@ -59,6 +59,51 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* New styles for Projects section */
+.projects-section {
+    padding: 20px;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #0077B5;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #0077B5;
+}
+
+.project-card p {
+    color: #555;
+}
+
+/* Styles for other sections */
 .section {
     background-color: #fff;
     padding: 20px;
@@ -82,7 +127,6 @@ nav ul li a:hover {
     list-style-position: inside;
 }
 
-/* New styles for section boxes */
 section.section {
     border: 1px solid #ddd;
     border-radius: 5px;
