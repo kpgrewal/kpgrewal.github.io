@@ -15,12 +15,13 @@
             padding: 10px 20px;
             border-radius: 5px;
         }
-        .linkedin-button img {
-            vertical-align: middle;
-            margin-right: 10px;
-            width: 20px;
-            height: 20px;
-        }
+
+            .linkedin-button img {
+                vertical-align: middle;
+                margin-right: 10px;
+                width: 20px;
+                height: 20px;
+            }
 
         /* Adjusted CSS for email button */
         .email-button {
@@ -32,12 +33,13 @@
             border-radius: 5px;
             font-size: 16px; /* Ensure font size matches other buttons */
         }
-        .email-button img {
-            width: 20px; /* Adjust icon size */
-            height: 20px;
-            vertical-align: middle;
-            margin-right: 5px; /* Adjust margin if needed */
-        }
+
+            .email-button img {
+                width: 20px; /* Adjust icon size */
+                height: 20px;
+                vertical-align: middle;
+                margin-right: 5px; /* Adjust margin if needed */
+            }
 
         /* Additional CSS for contact form */
         .contact-form {
@@ -48,63 +50,71 @@
             border-radius: 10px;
             margin-top: 20px;
         }
+
         .form-group {
             margin-bottom: 1rem;
         }
-        .form-group label {
-            display: block;
-            font-weight: bold;
-        }
-        .form-group input[type="text"],
-        .form-group input[type="email"],
-        .form-group input[type="tel"],
-        .form-group textarea {
-            width: calc(100% - 20px);
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .form-group textarea {
-            resize: vertical;
-            min-height: 100px;
-        }
+
+            .form-group label {
+                display: block;
+                font-weight: bold;
+            }
+
+            .form-group input[type="text"],
+            .form-group input[type="email"],
+            .form-group input[type="tel"],
+            .form-group textarea {
+                width: calc(100% - 20px);
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            .form-group textarea {
+                resize: vertical;
+                min-height: 100px;
+            }
+
         .buttons {
             margin-top: 20px;
         }
-        .buttons a {
-            display: inline-block;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin-right: 10px;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .buttons a.linkedin-button {
-            background-color: #0077B5;
-            color: #fff;
-        }
-        .buttons a.email-button {
-            background-color: #ff9900;
-            color: #fff;
-        }
-        .buttons input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+
+            .buttons a {
+                display: inline-block;
+                text-decoration: none;
+                padding: 10px 20px;
+                margin-right: 10px;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+                .buttons a.linkedin-button {
+                    background-color: #0077B5;
+                    color: #fff;
+                }
+
+                .buttons a.email-button {
+                    background-color: #ff9900;
+                    color: #fff;
+                }
+
+            .buttons input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
     </style>
 </head>
 <body>
     <header>
-        <h1>Kamalpreet Grewal</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -113,12 +123,15 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <img src="https://github.com/kpgrewal/kpgrewal.github.io/blob/main/dfeaae92-f073-4324-a6c2-e06b0ffe9927%20(1).jpg?raw=true" alt="Kamalpreet Grewal">
+        <div class="header-content">
+            <h1>Kamalpreet Singh Grewal</h1>
+            <p>Full Stack Developer | Tech Enthusiast | Problem Solver</p>
+        </div>
     </header>
     <section class="contact-form">
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, feel free to send me an email or connect with me on LinkedIn.</p>
-        
+
         <form action="https://formspree.io/kpgrewal10@gmail.com" method="POST">
             <div class="form-group">
                 <label for="firstName">First Name:</label>
@@ -151,5 +164,8 @@
             </div>
         </form>
     </section>
+    <footer>
+        <p>&copy; 2024 Kamalpreet Grewal. All rights reserved.</p>
+    </footer>
 </body>
 </html>
