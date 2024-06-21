@@ -76,11 +76,11 @@ nav ul {
         margin-bottom: 30px;
     }
 
-    .backbtn {
-        display: flex;
-        justify-content: flex-start;
-        padding: 20px;
-    }
+.backbtn {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
 
 .cta {
     background-color: #0073e6;
@@ -357,20 +357,20 @@ ul {
 }
 
 .screenshot {
-    flex: 1 1 calc(33.33% - 20px); 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    transition: transform 0.3s ease; 
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
 
-    .screenshot img {
-        width: 100%; 
-        height: auto; 
+.screenshot img {
+        width: 100%;
+        height: auto;
         display: block;
-        border-radius: 8px; 
-    }
+        border-radius: 8px;
+}
 
 .screenshot-caption {
     position: absolute;
@@ -396,7 +396,3 @@ ul {
         flex: 1 1 calc(50% - 20px);
     }
 }
-}
-
-
-
