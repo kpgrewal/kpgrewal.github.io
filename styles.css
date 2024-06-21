@@ -76,6 +76,12 @@ nav ul {
         margin-bottom: 30px;
     }
 
+    .backbtn {
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+
 .cta {
     background-color: #0073e6;
     color: white;
