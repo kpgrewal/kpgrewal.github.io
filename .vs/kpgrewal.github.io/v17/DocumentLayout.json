@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\Security.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Security.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\ITF.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITF.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "contact.html",
-              "DocumentMoniker": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\contact.html",
-              "RelativeDocumentMoniker": "contact.html",
-              "ToolTip": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\contact.html",
-              "RelativeToolTip": "contact.html",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAAAIsAAAAxAAAA",
+              "Title": "ITF.html",
+              "DocumentMoniker": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\ITF.html",
+              "RelativeDocumentMoniker": "ITF.html",
+              "ToolTip": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\ITF.html",
+              "RelativeToolTip": "ITF.html",
+              "ViewState": "AQIAAFcAAAAAAAAAAADwv3IAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-21T19:24:26.276Z",
+              "WhenOpened": "2024-08-15T14:13:30.294Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "projects.html",
-              "DocumentMoniker": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\projects.html",
-              "RelativeDocumentMoniker": "projects.html",
-              "ToolTip": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\projects.html",
-              "RelativeToolTip": "projects.html",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADUAAABAAAAA",
+              "Title": "Security.html",
+              "DocumentMoniker": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\Security.html",
+              "RelativeDocumentMoniker": "Security.html",
+              "ToolTip": "C:\\Users\\Q\\Documents\\GitHub\\kpgrewal.github.io\\Security.html",
+              "RelativeToolTip": "Security.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-21T18:10:26.784Z",
+              "WhenOpened": "2024-08-15T14:40:47.59Z",
               "EditorCaption": ""
             }
           ]
